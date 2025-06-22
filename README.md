@@ -1,21 +1,13 @@
-# RL Playground 🎮
+# 🧠 Reinforcement Learning Playground
 
-This repository contains mini-projects focused on reinforcement learning algorithms implemented using Python and PyTorch.
+A collection of mini-projects built using Reinforcement Learning algorithms to explore classic environments.
 
 ## 📁 Projects
 
-### 🔹 [CartPole-DQN](./CartPole-DQN)
+### 🔸 [CartPole-DQN](./CartPole-DQN)
 
-Solves the CartPole-v1 environment using Deep Q-Network (DQN) with experience replay, target networks, and epsilon-greedy strategy.
+A Deep Q-Network (DQN) agent trained on the CartPole-v1 environment using PyTorch and OpenAI Gym.
 
-- ✅ Trained model reaches an average score of ~197.
-- 📈 Training curve and demo video included.
-
----
-
-## 📦 Setup
-
-```bash
-conda create -n dqn_cartpole python=3.10
-conda activate dqn_cartpole
-pip install -r CartPole-DQN/requirements.txt
+- Trained model: ✅
+- Evaluation video: 🎥
+- Plotting rewards: 📈
